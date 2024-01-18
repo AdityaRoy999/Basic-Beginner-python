@@ -5,40 +5,40 @@ while True:
     #print(player.lower())
 
     computer = random.choice(choices).lower()
-    n = True;
+    
 
     #print(computer.lower())
     
     if computer == player:
-       print("Computer choice:"+ computer)
-       print("Your choice"+ player)
+       print("Computer choice: "+ computer)
+       print("Your choice: "+ player)
        print("it is a tie")
     elif computer == "rock":
         if player == "paper":
-          print("Computer choice:"+ computer)
-          print("Your choice"+ player)
+          print("Computer choice: "+ computer)
+          print("Your choice: "+ player)
           print("You Won!!")
         if player == "scissors":
           print("Computer choice:"+ computer)
-          print("Your choice"+ player)
+          print("Your choice: "+ player)
           print("You Lost")
     elif computer == "paper":
         if player == "scissors":
          print("Computer choice:"+ computer)
-         print("Your choice"+ player)
+         print("Your choice: "+ player)
          print("You Won!!")
         if player == "rock":
-         print("Computer choice:"+ computer)
+         print("Computer choice: "+ computer)
          print("Your choice"+ player)
          print("You Lost")
     elif computer == "scissors":
         if player == "rock":
-         print("Computer choice:"+ computer)
-         print("Your choice"+ player)
+         print("Computer choice: "+ computer)
+         print("Your choice: "+ player)
          print("You Won!!")
         if player == "paper":
-         print("Computer choice:"+ computer)
-         print("Your choice"+ player)
+         print("Computer choice: "+ computer)
+         print("Your choice: "+ player)
          print("You Lost")
     else:
        print("pls try again")
