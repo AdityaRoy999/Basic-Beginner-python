@@ -3,15 +3,15 @@
 #to create attributes you need to create class(blueprint)
 
 class Car:
- def __init__(self,make,model,year,color):   # in other languages it is called constructor 
-    self.make = make 
-    self.Model = model
-    self.year = year
-    self.color = color
 
- def drive(self):
-        print("this "+self.model+" is driving ")
-    
- def stop(self):
-        print("This "+self.model+" is stopped")
+    def __init__(self,make,model,year,color):
+        self.make = make
+        self.model = model
+        self.year = year
+        self.color = color
 
+    def drive(self):
+        print("the "+ self.model+" is driving ")
+
+    def stop(self):
+        print("the " + self.model + " has stopped working")
