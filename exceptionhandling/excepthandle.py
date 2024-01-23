@@ -14,9 +14,13 @@ try:
 except ValueError as e:
     print(e)
     print("pls enter a number not a string ")
-#except ZeroDivisionError as e:
-#    print(e)
-#    print("pls always divide by zero")
+except ZeroDivisionError as e:
+    print(e)
+    print("pls always divide by zero")
 except Exception as e:
     print(e)
     print("there is somthing wrong in this program pls check or run the program again")
+else:
+    print(number)
+finally:
+    print("this will always execute")

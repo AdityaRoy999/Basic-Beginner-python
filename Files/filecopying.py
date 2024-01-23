@@ -3,4 +3,6 @@
 # copy2() = copy() + copies metadata (file's creation and modification times)
 import shutil
 
-shutil.copyfile('test.txt','test1.txt')  #src,dst
+shutil.copyfile('test.txt','test1.txt')  #src,dst  - it will make a copy  
+shutil.copy('test.txt','test1.txt')  #src,dst  - it will make a copy  
+shutil.copy2('test.txt','test1.txt')  #src,dst  - it will make a copy  

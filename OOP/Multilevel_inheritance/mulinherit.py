@@ -13,3 +13,5 @@ class dog(Animal):
 
 
 Dog = dog()
+
+dog.bark(self=dog)

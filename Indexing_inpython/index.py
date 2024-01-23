@@ -7,7 +7,7 @@ if (name[0].islower()):
 
 first_name = name[:3].upper ()
 last_name = name [4: ].lower ()
-last_character = name[::-1]
+last_character = name[-1]
 
 print(first_name)
 print(last_name)

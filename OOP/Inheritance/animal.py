@@ -12,7 +12,7 @@ class rabit(Animal):     #here child class is rabit and parent class is animal
         print("This rabbit is running")
 class fish(Animal):
     def swim(self):
-        print("This Rabbit is swimming")
+        print("This Fish is swimming")
 class hawk(Animal):
     def fly(self):
         print("This Hawk is flying")

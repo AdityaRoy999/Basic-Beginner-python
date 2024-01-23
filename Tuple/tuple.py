@@ -3,7 +3,7 @@
 
 student = ("Bro",21,"male")
 
-print(student.index("Bro"))
+print(student.count("Bro"))
 print(student.index("male"))
 
 for x in student:
