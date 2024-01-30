@@ -12,9 +12,9 @@ capitals.pop('China')
 capitals.clear()
 
 
-print(capitals.keys())
-print(capitals.values())
-print(capitals.items())
+#print(capitals.keys())
+#print(capitals.values())
+#print(capitals.items())
 
 for key,Value in capitals.items():
     print(key,Value)
