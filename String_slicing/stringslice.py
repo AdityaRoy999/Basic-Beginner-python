@@ -14,7 +14,7 @@ print (reversed_name)
 websitel = "http://google.com"
 website2 = "http://wikipedia.com"
 
-slice = slice(7,-4)
+slice1 = slice(7,-4)
 
-print(websitel[slice])
-print(website2[slice])
+print(websitel[slice1])
+print(website2[slice1])

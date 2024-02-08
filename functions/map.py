@@ -10,5 +10,5 @@ to_euros = lambda data: (data[0],data[1]*0.82)
 
 store_euros = list(map(to_euros,store))
 
-for i in store_euros:
+for i in store_euros:   
     print(i)
