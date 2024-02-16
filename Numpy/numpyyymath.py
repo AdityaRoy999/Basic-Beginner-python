@@ -19,3 +19,7 @@ b = np.full((3,2), 2)
 print(b)
 
 print(np.matmul(a,b))
+
+#find the determinant 
+c= np.identity(3)
+print(np.linalg.det(c))

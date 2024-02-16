@@ -36,7 +36,8 @@ print(output)
 
 #be careful while copying araays
 a1 = np.array([2,3,4])
-b1 = a1
+b1 = a1.copy()
+b1[0] = 100        #here the value of only b will be change and a will remain as it is if we don't use copy then problem..
 print(b1)
 
 
