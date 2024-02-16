@@ -4,8 +4,8 @@ class Car:
 class Motocycle:
     color = None
 
-def color_change(car,color):  # here car should be same in the next line 
-    car.color = color
+def color_change(Caar,color):  # here car should be same in the next line 
+    Caar.color = color
 
 
 car_1 = Car()

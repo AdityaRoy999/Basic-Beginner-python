@@ -23,4 +23,4 @@ item = "moon"
 
 #print ("The "tanimal+" jumped over the "+item)
 print("The {} jumped over the {}".format(animal, item) )
-print("The {1} jumped over the {0}".format(animal, item) ) #positional argument
+print("The {1} jumped over the {0}".format(animal, item) ) #positional argument changes on what number you have writen.

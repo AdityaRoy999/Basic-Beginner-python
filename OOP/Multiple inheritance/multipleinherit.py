@@ -11,7 +11,6 @@ class predator:
 
 class Rabbit(Prey):
     pass
-
 class hawk(predator):
     pass
 
@@ -19,10 +18,11 @@ class Fish(Prey,predator):
     pass
 
 
-rabbit =Rabbit()
+rabbit = Rabbit()
 Hawk = hawk()
 Fish = Fish()
 
 Fish.flee()
 Fish.hunt()
+
     

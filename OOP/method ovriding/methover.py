@@ -9,3 +9,5 @@ class Rabbit(Animal):
 
 Rabbit = Rabbit()
 Rabbit.eat()
+Animal = Animal()
+Animal.eat()

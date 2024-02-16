@@ -22,4 +22,5 @@ Fish = fish()
 Hawk = hawk()
 
 Fish.swim()
+Fish.sleep()
 Hawk.fly()

@@ -22,3 +22,4 @@ class Cube(rectangle):
 
 square = square(3,3)
 cube = Cube(3,3,3)
+

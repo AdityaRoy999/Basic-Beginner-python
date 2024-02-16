@@ -9,10 +9,13 @@ last_name = name[4:]         #[4:end]
 funky_name = name[::2]       #[start:end:2 spaces step]
 reversed_name = name[::-1]   #[start:stop: 1 space step]
 
+
 print (reversed_name)
 
 websitel = "http://google.com"
 website2 = "http://wikipedia.com"
+
+#slice function slices the string from the star:stop given by the user
 
 slice1 = slice(7,-4)
 

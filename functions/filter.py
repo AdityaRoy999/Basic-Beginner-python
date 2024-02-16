@@ -9,10 +9,10 @@ friends = [("Rachel", 19),
 ("Chandler",21),
 ("Ross",20)]
 
-#age = lambda data:data[1] >= 18
+age = lambda data:(data[1] >= 18)
 
-def age(data):
-    return data[1] >=18
+#def age(data):
+#    return data[1] >=18
 
 drinking_buddies = list(filter(age,friends))
 for i in drinking_buddies:
