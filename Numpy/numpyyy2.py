@@ -16,7 +16,7 @@ print(a[:,1])
 #getting a little more fancy  [starindex:stopindex:stepsize]
 print(a[0, 1:6:2])
 
-#a[1,5] = 20 #changes the fifth element of he first row to 20
+#a[1,5] = 20 #changes the fifth element of the first row to 20
 a[:,2] = [1,2]#changes the second element of the rows to the consecutive 1 and 2
 print(a)
 

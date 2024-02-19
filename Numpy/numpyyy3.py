@@ -18,8 +18,9 @@ print(np.random.randint(2,size=(3,3)))
 print(np.identity(3))
 
 #repeating array n times
-arr = np.array([[2,3,4],[4,5,6]])
-arr1 = np.repeat(arr,3,axis=0)
+arr = np.array([[2,3,4],
+                [4,5,6]])
+arr1 = np.repeat(arr,3,axis=1)
 print(arr1)
 
 
