@@ -11,5 +11,5 @@ print("-------------")
 print(np.sum(stats)) # give sum of all the elements in the matrix
 print("-------------")
 print(np.sum(stats,axis = 0)) 
-print("------end-----")
+print("-----end-----")
 

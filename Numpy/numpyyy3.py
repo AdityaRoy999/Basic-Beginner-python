@@ -20,7 +20,7 @@ print(np.identity(3))
 #repeating array n times
 arr = np.array([[2,3,4],
                 [4,5,6]])
-arr1 = np.repeat(arr,3,axis=1)
+arr1 = np.repeat(arr,3,axis=0) #axis 0 is rows and axis 1 is for columns 
 print(arr1)
 
 
