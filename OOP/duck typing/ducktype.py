@@ -7,7 +7,7 @@ class Duck:
         print("This duck is walking")
 
     def talk(self):
-        print("This duck is quawcking ")
+        print("This duck  quawck ")
 
 class Chiken:
     def walk(self):
@@ -16,7 +16,7 @@ class Chiken:
     def talk(self):
         print("This chiken is quawcking ")
 
-class Person():
+class Person:
     def catch(self,duck):
         duck.walk()
         duck.talk()
@@ -26,5 +26,5 @@ duck = Duck()
 chiken = Chiken()
 person = Person()
 
-person.catch(chiken)
+person.catch(duck)
     

@@ -11,5 +11,6 @@ food.insert(0 ,"cake")
 food.sort()
 food.clear()
 
+
 for i in food:
  print(i)

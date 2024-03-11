@@ -4,7 +4,7 @@
 #dictionary = {key:expression for (key,value) in iterable}
 #dicitionary = {key:expression for (key,value) in iterable if conditional}
 #dictionary = {key:(if/else) for (key,value) in iterable}
-#dictionary = {key:function(value) for (key,value) in iterable }
+#dictionary = {key:function(value) for (key,value) in iterable}
 
 #cities_in_F = {'New York': 32, 'Boston': 75, 'Los Angeles': 100, 'Chicago': 50}
 #cities_in_c = {key:round((value-32)*(5/9)) for (key,value) in cities_in_F.items()}

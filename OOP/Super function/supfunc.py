@@ -14,7 +14,7 @@ class square(rectangle):
 
 class Cube(rectangle):
     def __init__(self,length,width,height):
-        super().__init__(length,width)
+        #super().__init__(length,width)
         self.height = height
     def volume(self):
         return self.width*self.height*self.length
@@ -22,4 +22,7 @@ class Cube(rectangle):
 
 square = square(3,3)
 cube = Cube(3,3,3)
+
+
+print(cube.volume())
 

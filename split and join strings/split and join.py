@@ -4,6 +4,10 @@ a = input()
 a = a.split(" ")
 print(a)
 
+b = list(input())
+print(b)
+print(''.join(b))
+
 b = input()
 b = "-".join(b)
 print(b)

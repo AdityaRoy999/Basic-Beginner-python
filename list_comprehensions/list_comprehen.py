@@ -3,7 +3,7 @@
 #                     list = [expression for item in iterable]
 #                     list = [expression for item in iterable if conditional]
 #                     list = [expression if/else for item in iterable ]
-
+#                     Iterables can be a range()
 #squares= []
 #for i in range(1,11):
 #    squares.append(i*i)
